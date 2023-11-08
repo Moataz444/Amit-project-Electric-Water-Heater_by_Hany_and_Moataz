@@ -1,0 +1,904 @@
+Archive member included to satisfy reference by file (symbol)
+
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+                              C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.7.374/gcc/dev/atmega32a/avr5/crtatmega32a.o (exit)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_tablejump2.o)
+                              03- HAL/04-7_Segment/_7_Segment_program.o (__tablejump2__)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+                              03- HAL/05-Push_Buttons/Push_Buttons_program.o (__do_copy_data)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+                              02- MCAL/04-Timer/Timer_program.o (__do_clear_bss)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_umulhisi3.o)
+                              05- APP/main.o (__umulhisi3)
+
+Allocating common symbols
+Common symbol       size              file
+
+TIMER1_pvCallBack   0x2               02- MCAL/04-Timer/Timer_program.o
+TIMER2_pvCallBack   0x2               02- MCAL/04-Timer/Timer_program.o
+TIMER0_pvCallBack   0x2               02- MCAL/04-Timer/Timer_program.o
+UART_pvCallBack     0x2               02- MCAL/06-UART/UART_program.o
+u8Temprature_Array  0xa               05- APP/main.o
+
+Discarded input sections
+
+ .data          0x00000000        0x0 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.7.374/gcc/dev/atmega32a/avr5/crtatmega32a.o
+ .bss           0x00000000        0x0 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.7.374/gcc/dev/atmega32a/avr5/crtatmega32a.o
+ .text          0x00000000        0x0 02- MCAL/01_DIO/DIO_program.o
+ .data          0x00000000        0x0 02- MCAL/01_DIO/DIO_program.o
+ .bss           0x00000000        0x0 02- MCAL/01_DIO/DIO_program.o
+ .text          0x00000000        0x0 02- MCAL/02-GIE/GIE_program.o
+ .data          0x00000000        0x0 02- MCAL/02-GIE/GIE_program.o
+ .bss           0x00000000        0x0 02- MCAL/02-GIE/GIE_program.o
+ .text.MCAL_GIE_vidDisable
+                0x00000000        0x8 02- MCAL/02-GIE/GIE_program.o
+ .text          0x00000000        0x0 02- MCAL/03-ADC/ADC_program.o
+ .data          0x00000000        0x0 02- MCAL/03-ADC/ADC_program.o
+ .bss           0x00000000        0x0 02- MCAL/03-ADC/ADC_program.o
+ .text          0x00000000        0x0 02- MCAL/04-Timer/Timer_program.o
+ .data          0x00000000        0x0 02- MCAL/04-Timer/Timer_program.o
+ .bss           0x00000000        0x0 02- MCAL/04-Timer/Timer_program.o
+ .text.MCAL_Timer0_vidDelay_1_seca
+                0x00000000       0x12 02- MCAL/04-Timer/Timer_program.o
+ .text.MCAL_Timer0_vidDelay_5_seca
+                0x00000000       0x12 02- MCAL/04-Timer/Timer_program.o
+ .text          0x00000000        0x0 02- MCAL/05-EEPROM/EEPROM_program.o
+ .data          0x00000000        0x0 02- MCAL/05-EEPROM/EEPROM_program.o
+ .bss           0x00000000        0x0 02- MCAL/05-EEPROM/EEPROM_program.o
+ .text          0x00000000        0x0 02- MCAL/06-UART/UART_program.o
+ .data          0x00000000        0x0 02- MCAL/06-UART/UART_program.o
+ .bss           0x00000000        0x0 02- MCAL/06-UART/UART_program.o
+ .text.MCAL_UART_vidInit
+                0x00000000       0x1c 02- MCAL/06-UART/UART_program.o
+ .text.MCAL_UART_vidSend
+                0x00000000        0x4 02- MCAL/06-UART/UART_program.o
+ .text.MCAL_UART_u8Receive
+                0x00000000        0x8 02- MCAL/06-UART/UART_program.o
+ .text.MCAL_UART_Receive_vidCallBack
+                0x00000000        0xa 02- MCAL/06-UART/UART_program.o
+ .text          0x00000000        0x0 03- HAL/02-Cooling_Element/Cooling_Element_Fan_program.o
+ .data          0x00000000        0x0 03- HAL/02-Cooling_Element/Cooling_Element_Fan_program.o
+ .bss           0x00000000        0x0 03- HAL/02-Cooling_Element/Cooling_Element_Fan_program.o
+ .text.HAL_udtEnableCooler_AntiClockwise
+                0x00000000       0x2a 03- HAL/02-Cooling_Element/Cooling_Element_Fan_program.o
+ .text          0x00000000        0x0 03- HAL/03-Heating_Element/Heating_Element_program.o
+ .data          0x00000000        0x0 03- HAL/03-Heating_Element/Heating_Element_program.o
+ .bss           0x00000000        0x0 03- HAL/03-Heating_Element/Heating_Element_program.o
+ .text          0x00000000        0x0 03- HAL/01-Relay/Relay_program.o
+ .data          0x00000000        0x0 03- HAL/01-Relay/Relay_program.o
+ .bss           0x00000000        0x0 03- HAL/01-Relay/Relay_program.o
+ .text          0x00000000        0x0 03- HAL/05-Push_Buttons/Push_Buttons_program.o
+ .data          0x00000000        0x0 03- HAL/05-Push_Buttons/Push_Buttons_program.o
+ .bss           0x00000000        0x0 03- HAL/05-Push_Buttons/Push_Buttons_program.o
+ .text          0x00000000        0x0 03- HAL/06-Leds/Leds_program.o
+ .data          0x00000000        0x0 03- HAL/06-Leds/Leds_program.o
+ .bss           0x00000000        0x0 03- HAL/06-Leds/Leds_program.o
+ .text          0x00000000        0x0 03- HAL/04-7_Segment/_7_Segment_program.o
+ .data          0x00000000        0x0 03- HAL/04-7_Segment/_7_Segment_program.o
+ .bss           0x00000000        0x0 03- HAL/04-7_Segment/_7_Segment_program.o
+ .text.HAL_udtEnable7Segment
+                0x00000000       0x16 03- HAL/04-7_Segment/_7_Segment_program.o
+ .text          0x00000000        0x0 03- HAL/07-Temperature_Sensor/Temperature_Sensor_program.o
+ .data          0x00000000        0x0 03- HAL/07-Temperature_Sensor/Temperature_Sensor_program.o
+ .bss           0x00000000        0x0 03- HAL/07-Temperature_Sensor/Temperature_Sensor_program.o
+ .text          0x00000000        0x0 05- APP/main.o
+ .data          0x00000000        0x0 05- APP/main.o
+ .bss           0x00000000        0x0 05- APP/main.o
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+ .text.libgcc.div
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+ .text.libgcc   0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_tablejump2.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_tablejump2.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_tablejump2.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_tablejump2.o)
+ .text.libgcc.div
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_tablejump2.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_tablejump2.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_tablejump2.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_tablejump2.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_tablejump2.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.div
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc   0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.div
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc   0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_umulhisi3.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_umulhisi3.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_umulhisi3.o)
+ .text.libgcc.div
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_umulhisi3.o)
+ .text.libgcc   0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_umulhisi3.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_umulhisi3.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_umulhisi3.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_umulhisi3.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_umulhisi3.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x00000000         0x00008000         xr
+data             0x00800060         0x00000800         rw !x
+eeprom           0x00810000         0x00000400         rw !x
+fuse             0x00820000         0x00000002         rw !x
+lock             0x00830000         0x00000400         rw !x
+signature        0x00840000         0x00000400         rw !x
+user_signatures  0x00850000         0x00000400         rw !x
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.7.374/gcc/dev/atmega32a/avr5/crtatmega32a.o
+LOAD 02- MCAL/01_DIO/DIO_program.o
+LOAD 02- MCAL/02-GIE/GIE_program.o
+LOAD 02- MCAL/03-ADC/ADC_program.o
+LOAD 02- MCAL/04-Timer/Timer_program.o
+LOAD 02- MCAL/05-EEPROM/EEPROM_program.o
+LOAD 02- MCAL/06-UART/UART_program.o
+LOAD 03- HAL/02-Cooling_Element/Cooling_Element_Fan_program.o
+LOAD 03- HAL/03-Heating_Element/Heating_Element_program.o
+LOAD 03- HAL/01-Relay/Relay_program.o
+LOAD 03- HAL/05-Push_Buttons/Push_Buttons_program.o
+LOAD 03- HAL/06-Leds/Leds_program.o
+LOAD 03- HAL/04-7_Segment/_7_Segment_program.o
+LOAD 03- HAL/07-Temperature_Sensor/Temperature_Sensor_program.o
+LOAD 05- APP/main.o
+START GROUP
+LOAD c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a
+END GROUP
+START GROUP
+LOAD c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a
+LOAD c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a
+LOAD c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a
+LOAD C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.7.374/gcc/dev/atmega32a/avr5\libatmega32a.a
+END GROUP
+                [0x00000000]                __TEXT_REGION_ORIGIN__ = DEFINED (__TEXT_REGION_ORIGIN__)?__TEXT_REGION_ORIGIN__:0x0
+                [0x00800060]                __DATA_REGION_ORIGIN__ = DEFINED (__DATA_REGION_ORIGIN__)?__DATA_REGION_ORIGIN__:0x800060
+                [0x00008000]                __TEXT_REGION_LENGTH__ = DEFINED (__TEXT_REGION_LENGTH__)?__TEXT_REGION_LENGTH__:0x20000
+                [0x00000800]                __DATA_REGION_LENGTH__ = DEFINED (__DATA_REGION_LENGTH__)?__DATA_REGION_LENGTH__:0xffa0
+                [0x00000400]                __EEPROM_REGION_LENGTH__ = DEFINED (__EEPROM_REGION_LENGTH__)?__EEPROM_REGION_LENGTH__:0x10000
+                [0x00000002]                __FUSE_REGION_LENGTH__ = DEFINED (__FUSE_REGION_LENGTH__)?__FUSE_REGION_LENGTH__:0x400
+                0x00000400                __LOCK_REGION_LENGTH__ = DEFINED (__LOCK_REGION_LENGTH__)?__LOCK_REGION_LENGTH__:0x400
+                0x00000400                __SIGNATURE_REGION_LENGTH__ = DEFINED (__SIGNATURE_REGION_LENGTH__)?__SIGNATURE_REGION_LENGTH__:0x400
+                0x00000400                __USER_SIGNATURE_REGION_LENGTH__ = DEFINED (__USER_SIGNATURE_REGION_LENGTH__)?__USER_SIGNATURE_REGION_LENGTH__:0x400
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x00000000      0xe18
+ *(.vectors)
+ .vectors       0x00000000       0x54 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.7.374/gcc/dev/atmega32a/avr5/crtatmega32a.o
+                0x00000000                __vector_default
+                0x00000000                __vectors
+ *(.vectors)
+ *(.progmem.gcc*)
+ .progmem.gcc_sw_table.HAL_udtSet7Segment
+                0x00000054       0x14 03- HAL/04-7_Segment/_7_Segment_program.o
+                0x00000068                . = ALIGN (0x2)
+                0x00000068                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x00000068        0x0 linker stubs
+ *(.trampolines*)
+                0x00000068                __trampolines_end = .
+ *libprintf_flt.a:*(.progmem.data)
+ *libc.a:*(.progmem.data)
+ *(.progmem*)
+                0x00000068                . = ALIGN (0x2)
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ *(.lowtext*)
+                0x00000068                __ctors_start = .
+ *(.ctors)
+                0x00000068                __ctors_end = .
+                0x00000068                __dtors_start = .
+ *(.dtors)
+                0x00000068                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x00000068        0x0 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.7.374/gcc/dev/atmega32a/avr5/crtatmega32a.o
+                0x00000068                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x00000068        0xc C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.7.374/gcc/dev/atmega32a/avr5/crtatmega32a.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x00000074       0x16 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+                0x00000074                __do_copy_data
+ .init4         0x0000008a       0x10 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+                0x0000008a                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x0000009a        0x8 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.7.374/gcc/dev/atmega32a/avr5/crtatmega32a.o
+ *(.init9)
+ *(.text)
+ .text          0x000000a2        0x4 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.7.374/gcc/dev/atmega32a/avr5/crtatmega32a.o
+                0x000000a2                __vector_1
+                0x000000a2                __vector_12
+                0x000000a2                __bad_interrupt
+                0x000000a2                __vector_6
+                0x000000a2                __vector_3
+                0x000000a2                __vector_13
+                0x000000a2                __vector_17
+                0x000000a2                __vector_19
+                0x000000a2                __vector_7
+                0x000000a2                __vector_4
+                0x000000a2                __vector_2
+                0x000000a2                __vector_15
+                0x000000a2                __vector_8
+                0x000000a2                __vector_10
+                0x000000a2                __vector_16
+                0x000000a2                __vector_18
+                0x000000a2                __vector_20
+                0x000000a6                . = ALIGN (0x2)
+ *(.text.*)
+ .text.DIO_udtSetPinDirection
+                0x000000a6       0xfc 02- MCAL/01_DIO/DIO_program.o
+                0x000000a6                DIO_udtSetPinDirection
+ .text.DIO_udtSetPinValue
+                0x000001a2       0xfc 02- MCAL/01_DIO/DIO_program.o
+                0x000001a2                DIO_udtSetPinValue
+ .text.DIO_udtGetPinValue
+                0x0000029e       0x74 02- MCAL/01_DIO/DIO_program.o
+                0x0000029e                DIO_udtGetPinValue
+ .text.MCAL_GIE_vidEnable
+                0x00000312        0x8 02- MCAL/02-GIE/GIE_program.o
+                0x00000312                MCAL_GIE_vidEnable
+ .text.MCAL_ADC_vidInit
+                0x0000031a       0x2c 02- MCAL/03-ADC/ADC_program.o
+                0x0000031a                MCAL_ADC_vidInit
+ .text.MCAL_ADC_u8ChannelRead
+                0x00000346       0x20 02- MCAL/03-ADC/ADC_program.o
+                0x00000346                MCAL_ADC_u8ChannelRead
+ .text.MCAL_Timer0_vidInit
+                0x00000366       0x14 02- MCAL/04-Timer/Timer_program.o
+                0x00000366                MCAL_Timer0_vidInit
+ .text.MCAL_Timer0_vidEnable
+                0x0000037a       0x16 02- MCAL/04-Timer/Timer_program.o
+                0x0000037a                MCAL_Timer0_vidEnable
+ .text.MCAL_Timer0_vidDisable
+                0x00000390       0x14 02- MCAL/04-Timer/Timer_program.o
+                0x00000390                MCAL_Timer0_vidDisable
+ .text.MCAL_TIMER0_vidCallBack
+                0x000003a4        0xa 02- MCAL/04-Timer/Timer_program.o
+                0x000003a4                MCAL_TIMER0_vidCallBack
+ .text.__vector_11
+                0x000003ae       0x4e 02- MCAL/04-Timer/Timer_program.o
+                0x000003ae                __vector_11
+ .text.MCAL_Timer1_vidInit
+                0x000003fc       0x38 02- MCAL/04-Timer/Timer_program.o
+                0x000003fc                MCAL_Timer1_vidInit
+ .text.MCAL_Timer1_vidEnable
+                0x00000434       0x18 02- MCAL/04-Timer/Timer_program.o
+                0x00000434                MCAL_Timer1_vidEnable
+ .text.MCAL_Timer1_vidDisable
+                0x0000044c       0x14 02- MCAL/04-Timer/Timer_program.o
+                0x0000044c                MCAL_Timer1_vidDisable
+ .text.MCAL_TIMER1_vidCallBack
+                0x00000460        0xa 02- MCAL/04-Timer/Timer_program.o
+                0x00000460                MCAL_TIMER1_vidCallBack
+ .text.__vector_9
+                0x0000046a       0x4e 02- MCAL/04-Timer/Timer_program.o
+                0x0000046a                __vector_9
+ .text.MCAL_Timer2_vidInit
+                0x000004b8       0x20 02- MCAL/04-Timer/Timer_program.o
+                0x000004b8                MCAL_Timer2_vidInit
+ .text.MCAL_Timer2_vidEnable
+                0x000004d8       0x16 02- MCAL/04-Timer/Timer_program.o
+                0x000004d8                MCAL_Timer2_vidEnable
+ .text.MCAL_Timer2_vidDisable
+                0x000004ee       0x14 02- MCAL/04-Timer/Timer_program.o
+                0x000004ee                MCAL_Timer2_vidDisable
+ .text.MCAL_TIMER2_vidCallBack
+                0x00000502        0xa 02- MCAL/04-Timer/Timer_program.o
+                0x00000502                MCAL_TIMER2_vidCallBack
+ .text.__vector_5
+                0x0000050c       0x4e 02- MCAL/04-Timer/Timer_program.o
+                0x0000050c                __vector_5
+ .text.EEPROM_vidWrite
+                0x0000055a       0x18 02- MCAL/05-EEPROM/EEPROM_program.o
+                0x0000055a                EEPROM_vidWrite
+ .text.EEPROM_vidRead
+                0x00000572       0x12 02- MCAL/05-EEPROM/EEPROM_program.o
+                0x00000572                EEPROM_vidRead
+ .text.__vector_14
+                0x00000584       0x4e 02- MCAL/06-UART/UART_program.o
+                0x00000584                __vector_14
+ .text.HAL_udtInitCooler
+                0x000005d2       0x3e 03- HAL/02-Cooling_Element/Cooling_Element_Fan_program.o
+                0x000005d2                HAL_udtInitCooler
+ .text.HAL_udtEnableCooler_Clockwise
+                0x00000610       0x2a 03- HAL/02-Cooling_Element/Cooling_Element_Fan_program.o
+                0x00000610                HAL_udtEnableCooler_Clockwise
+ .text.HAL_udtDisableCooler
+                0x0000063a       0x16 03- HAL/02-Cooling_Element/Cooling_Element_Fan_program.o
+                0x0000063a                HAL_udtDisableCooler
+ .text.HAL_udtInitHeater
+                0x00000650        0x6 03- HAL/03-Heating_Element/Heating_Element_program.o
+                0x00000650                HAL_udtInitHeater
+ .text.HAL_udtEnableHeater
+                0x00000656        0x6 03- HAL/03-Heating_Element/Heating_Element_program.o
+                0x00000656                HAL_udtEnableHeater
+ .text.HAL_udtDisableHeater
+                0x0000065c        0x6 03- HAL/03-Heating_Element/Heating_Element_program.o
+                0x0000065c                HAL_udtDisableHeater
+ .text.HAL_udtInitRelay
+                0x00000662       0x16 03- HAL/01-Relay/Relay_program.o
+                0x00000662                HAL_udtInitRelay
+ .text.HAL_udtEnableRelay
+                0x00000678        0xc 03- HAL/01-Relay/Relay_program.o
+                0x00000678                HAL_udtEnableRelay
+ .text.HAL_udtDisableRelay
+                0x00000684        0xc 03- HAL/01-Relay/Relay_program.o
+                0x00000684                HAL_udtDisableRelay
+ .text.HAL_udtInitPushButtons
+                0x00000690       0x3e 03- HAL/05-Push_Buttons/Push_Buttons_program.o
+                0x00000690                HAL_udtInitPushButtons
+ .text.HAL_udtCheck_DownButton
+                0x000006ce       0x30 03- HAL/05-Push_Buttons/Push_Buttons_program.o
+                0x000006ce                HAL_udtCheck_DownButton
+ .text.HAL_udtCheck_UpButton
+                0x000006fe       0x30 03- HAL/05-Push_Buttons/Push_Buttons_program.o
+                0x000006fe                HAL_udtCheck_UpButton
+ .text.HAL_udtCheck_ChangeStateButton
+                0x0000072e       0x30 03- HAL/05-Push_Buttons/Push_Buttons_program.o
+                0x0000072e                HAL_udtCheck_ChangeStateButton
+ .text.HAL_udtInitLeds
+                0x0000075e       0x3e 03- HAL/06-Leds/Leds_program.o
+                0x0000075e                HAL_udtInitLeds
+ .text.HAL_udtLedOn
+                0x0000079c       0x30 03- HAL/06-Leds/Leds_program.o
+                0x0000079c                HAL_udtLedOn
+ .text.HAL_udtLedOff
+                0x000007cc       0x30 03- HAL/06-Leds/Leds_program.o
+                0x000007cc                HAL_udtLedOff
+ .text.HAL_udtDisable7Segment
+                0x000007fc       0x16 03- HAL/04-7_Segment/_7_Segment_program.o
+                0x000007fc                HAL_udtDisable7Segment
+ .text.HAL_udtInit7Segment
+                0x00000812       0x3e 03- HAL/04-7_Segment/_7_Segment_program.o
+                0x00000812                HAL_udtInit7Segment
+ .text.HAL_udtSet7Segment
+                0x00000850      0x1b8 03- HAL/04-7_Segment/_7_Segment_program.o
+                0x00000850                HAL_udtSet7Segment
+ .text.HAL_udtWrite_On_2_7Segment
+                0x00000a08       0x7a 03- HAL/04-7_Segment/_7_Segment_program.o
+                0x00000a08                HAL_udtWrite_On_2_7Segment
+ .text.HAL_udtInitTemperature_Sensor
+                0x00000a82        0xc 03- HAL/07-Temperature_Sensor/Temperature_Sensor_program.o
+                0x00000a82                HAL_udtInitTemperature_Sensor
+ .text.HAL_udtGetTemperature
+                0x00000a8e        0xa 03- HAL/07-Temperature_Sensor/Temperature_Sensor_program.o
+                0x00000a8e                HAL_udtGetTemperature
+ .text.Interupt_OVF_Timer1_5sec_Set_Temoperature_Mode
+                0x00000a98       0x50 05- APP/main.o
+                0x00000a98                Interupt_OVF_Timer1_5sec_Set_Temoperature_Mode
+ .text.Interupt_OVF_Timer2_1sec_Toggle
+                0x00000ae8       0x54 05- APP/main.o
+                0x00000ae8                Interupt_OVF_Timer2_1sec_Toggle
+ .text.vidInit_drivers
+                0x00000b3c       0x2e 05- APP/main.o
+                0x00000b3c                vidInit_drivers
+ .text.main     0x00000b6a      0x1be 05- APP/main.o
+                0x00000b6a                main
+ .text.vidGet_Temperature_And_Average_Of_Last_10_Temperature_Readings
+                0x00000d28       0x7c 05- APP/main.o
+                0x00000d28                vidGet_Temperature_And_Average_Of_Last_10_Temperature_Readings
+ .text.Interupt_OVF_Timer0_100milisec_Get_Temperature
+                0x00000da4       0x46 05- APP/main.o
+                0x00000da4                Interupt_OVF_Timer0_100milisec_Get_Temperature
+ .text.libgcc   0x00000dea        0xc c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_tablejump2.o)
+                0x00000dea                __tablejump2__
+ .text.libgcc.mul
+                0x00000df6       0x1e c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_umulhisi3.o)
+                0x00000df6                __umulhisi3
+                0x00000e14                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x00000e14        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+                0x00000e14                _exit
+                0x00000e14                exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x00000e14        0x4 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+ *(.fini0)
+                0x00000e18                _etext = .
+
+.data           0x00800060        0x2 load address 0x00000e18
+                0x00800060                PROVIDE (__data_start, .)
+ *(.data)
+ *(.data*)
+ .data.pushButtonValue
+                0x00800060        0x1 03- HAL/05-Push_Buttons/Push_Buttons_program.o
+                0x00800060                pushButtonValue
+ .data.Wanted_Temperature
+                0x00800061        0x1 05- APP/main.o
+                0x00800061                Wanted_Temperature
+ *(.gnu.linkonce.d*)
+ *(.rodata)
+ *(.rodata*)
+ *(.gnu.linkonce.r*)
+                0x00800062                . = ALIGN (0x2)
+                0x00800062                _edata = .
+                0x00800062                PROVIDE (__data_end, .)
+
+.bss            0x00800062       0x27
+                0x00800062                PROVIDE (__bss_start, .)
+ *(.bss)
+ *(.bss*)
+ .bss.Toggle_Every_1_sec
+                0x00800062        0x1 05- APP/main.o
+                0x00800062                Toggle_Every_1_sec
+ .bss.live_temperature_mode
+                0x00800063        0x1 05- APP/main.o
+                0x00800063                live_temperature_mode
+ .bss.set_temperature_mode
+                0x00800064        0x1 05- APP/main.o
+                0x00800064                set_temperature_mode
+ .bss.u16Teperature_Average
+                0x00800065        0x2 05- APP/main.o
+                0x00800065                u16Teperature_Average
+ .bss.u16Teperature_Sum
+                0x00800067        0x2 05- APP/main.o
+                0x00800067                u16Teperature_Sum
+ .bss.u8Temprature_Array_Counter
+                0x00800069        0x1 05- APP/main.o
+                0x00800069                u8Temprature_Array_Counter
+ .bss.Timer2_OVF_Counter
+                0x0080006a        0x4 05- APP/main.o
+                0x0080006a                Timer2_OVF_Counter
+ .bss.Timer1_OVF_Counter
+                0x0080006e        0x4 05- APP/main.o
+                0x0080006e                Timer1_OVF_Counter
+ .bss.Timer0_OVF_Counter
+                0x00800072        0x4 05- APP/main.o
+                0x00800072                Timer0_OVF_Counter
+ .bss.Current_Temperature_Sensor
+                0x00800076        0x1 05- APP/main.o
+                0x00800076                Current_Temperature_Sensor
+ *(COMMON)
+ COMMON         0x00800077        0x6 02- MCAL/04-Timer/Timer_program.o
+                0x00800077                TIMER1_pvCallBack
+                0x00800079                TIMER2_pvCallBack
+                0x0080007b                TIMER0_pvCallBack
+ COMMON         0x0080007d        0x2 02- MCAL/06-UART/UART_program.o
+                0x0080007d                UART_pvCallBack
+ COMMON         0x0080007f        0xa 05- APP/main.o
+                0x0080007f                u8Temprature_Array
+                0x00800089                PROVIDE (__bss_end, .)
+                0x00000e18                __data_load_start = LOADADDR (.data)
+                0x00000e1a                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x00800089        0x0
+                [!provide]                PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                [!provide]                PROVIDE (__noinit_end, .)
+                0x00800089                _end = .
+                [!provide]                PROVIDE (__heap_start, .)
+
+.eeprom         0x00810000        0x0
+ *(.eeprom*)
+                0x00810000                __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.user_signatures
+ *(.user_signatures*)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0x30
+ *(.comment)
+ .comment       0x00000000       0x30 02- MCAL/01_DIO/DIO_program.o
+                                 0x31 (size before relaxing)
+ .comment       0x00000030       0x31 02- MCAL/02-GIE/GIE_program.o
+ .comment       0x00000030       0x31 02- MCAL/03-ADC/ADC_program.o
+ .comment       0x00000030       0x31 02- MCAL/04-Timer/Timer_program.o
+ .comment       0x00000030       0x31 02- MCAL/05-EEPROM/EEPROM_program.o
+ .comment       0x00000030       0x31 02- MCAL/06-UART/UART_program.o
+ .comment       0x00000030       0x31 03- HAL/02-Cooling_Element/Cooling_Element_Fan_program.o
+ .comment       0x00000030       0x31 03- HAL/03-Heating_Element/Heating_Element_program.o
+ .comment       0x00000030       0x31 03- HAL/01-Relay/Relay_program.o
+ .comment       0x00000030       0x31 03- HAL/05-Push_Buttons/Push_Buttons_program.o
+ .comment       0x00000030       0x31 03- HAL/06-Leds/Leds_program.o
+ .comment       0x00000030       0x31 03- HAL/04-7_Segment/_7_Segment_program.o
+ .comment       0x00000030       0x31 03- HAL/07-Temperature_Sensor/Temperature_Sensor_program.o
+ .comment       0x00000030       0x31 05- APP/main.o
+
+.note.gnu.avr.deviceinfo
+                0x00000000       0x3c
+ .note.gnu.avr.deviceinfo
+                0x00000000       0x3c C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.7.374/gcc/dev/atmega32a/avr5/crtatmega32a.o
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x338
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x30 02- MCAL/01_DIO/DIO_program.o
+ .debug_aranges
+                0x00000030       0x28 02- MCAL/02-GIE/GIE_program.o
+ .debug_aranges
+                0x00000058       0x28 02- MCAL/03-ADC/ADC_program.o
+ .debug_aranges
+                0x00000080       0xa0 02- MCAL/04-Timer/Timer_program.o
+ .debug_aranges
+                0x00000120       0x28 02- MCAL/05-EEPROM/EEPROM_program.o
+ .debug_aranges
+                0x00000148       0x40 02- MCAL/06-UART/UART_program.o
+ .debug_aranges
+                0x00000188       0x38 03- HAL/02-Cooling_Element/Cooling_Element_Fan_program.o
+ .debug_aranges
+                0x000001c0       0x30 03- HAL/03-Heating_Element/Heating_Element_program.o
+ .debug_aranges
+                0x000001f0       0x30 03- HAL/01-Relay/Relay_program.o
+ .debug_aranges
+                0x00000220       0x38 03- HAL/05-Push_Buttons/Push_Buttons_program.o
+ .debug_aranges
+                0x00000258       0x30 03- HAL/06-Leds/Leds_program.o
+ .debug_aranges
+                0x00000288       0x40 03- HAL/04-7_Segment/_7_Segment_program.o
+ .debug_aranges
+                0x000002c8       0x28 03- HAL/07-Temperature_Sensor/Temperature_Sensor_program.o
+ .debug_aranges
+                0x000002f0       0x48 05- APP/main.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x2604
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000      0x4e6 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.7.374/gcc/dev/atmega32a/avr5/crtatmega32a.o
+ .debug_info    0x000004e6      0x240 02- MCAL/01_DIO/DIO_program.o
+ .debug_info    0x00000726       0x76 02- MCAL/02-GIE/GIE_program.o
+ .debug_info    0x0000079c       0x8a 02- MCAL/03-ADC/ADC_program.o
+ .debug_info    0x00000826      0x2ad 02- MCAL/04-Timer/Timer_program.o
+ .debug_info    0x00000ad3       0xb6 02- MCAL/05-EEPROM/EEPROM_program.o
+ .debug_info    0x00000b89      0x111 02- MCAL/06-UART/UART_program.o
+ .debug_info    0x00000c9a      0x290 03- HAL/02-Cooling_Element/Cooling_Element_Fan_program.o
+ .debug_info    0x00000f2a       0xd2 03- HAL/03-Heating_Element/Heating_Element_program.o
+ .debug_info    0x00000ffc      0x11d 03- HAL/01-Relay/Relay_program.o
+ .debug_info    0x00001119      0x2a1 03- HAL/05-Push_Buttons/Push_Buttons_program.o
+ .debug_info    0x000013ba      0x223 03- HAL/06-Leds/Leds_program.o
+ .debug_info    0x000015dd      0x858 03- HAL/04-7_Segment/_7_Segment_program.o
+ .debug_info    0x00001e35       0xe0 03- HAL/07-Temperature_Sensor/Temperature_Sensor_program.o
+ .debug_info    0x00001f15      0x6ef 05- APP/main.o
+
+.debug_abbrev   0x00000000      0xe12
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x4a3 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.7.374/gcc/dev/atmega32a/avr5/crtatmega32a.o
+ .debug_abbrev  0x000004a3       0xb4 02- MCAL/01_DIO/DIO_program.o
+ .debug_abbrev  0x00000557       0x46 02- MCAL/02-GIE/GIE_program.o
+ .debug_abbrev  0x0000059d       0x6f 02- MCAL/03-ADC/ADC_program.o
+ .debug_abbrev  0x0000060c      0x14b 02- MCAL/04-Timer/Timer_program.o
+ .debug_abbrev  0x00000757       0x80 02- MCAL/05-EEPROM/EEPROM_program.o
+ .debug_abbrev  0x000007d7       0xb9 02- MCAL/06-UART/UART_program.o
+ .debug_abbrev  0x00000890       0x7e 03- HAL/02-Cooling_Element/Cooling_Element_Fan_program.o
+ .debug_abbrev  0x0000090e       0x58 03- HAL/03-Heating_Element/Heating_Element_program.o
+ .debug_abbrev  0x00000966       0x7e 03- HAL/01-Relay/Relay_program.o
+ .debug_abbrev  0x000009e4       0xc3 03- HAL/05-Push_Buttons/Push_Buttons_program.o
+ .debug_abbrev  0x00000aa7       0x8d 03- HAL/06-Leds/Leds_program.o
+ .debug_abbrev  0x00000b34      0x134 03- HAL/04-7_Segment/_7_Segment_program.o
+ .debug_abbrev  0x00000c68       0x9c 03- HAL/07-Temperature_Sensor/Temperature_Sensor_program.o
+ .debug_abbrev  0x00000d04      0x10e 05- APP/main.o
+
+.debug_line     0x00000000     0x1728
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x116 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.7.374/gcc/dev/atmega32a/avr5/crtatmega32a.o
+ .debug_line    0x00000116      0x25d 02- MCAL/01_DIO/DIO_program.o
+ .debug_line    0x00000373       0x84 02- MCAL/02-GIE/GIE_program.o
+ .debug_line    0x000003f7       0xd0 02- MCAL/03-ADC/ADC_program.o
+ .debug_line    0x000004c7      0x2cd 02- MCAL/04-Timer/Timer_program.o
+ .debug_line    0x00000794       0xc0 02- MCAL/05-EEPROM/EEPROM_program.o
+ .debug_line    0x00000854       0xf4 02- MCAL/06-UART/UART_program.o
+ .debug_line    0x00000948      0x139 03- HAL/02-Cooling_Element/Cooling_Element_Fan_program.o
+ .debug_line    0x00000a81       0xc0 03- HAL/03-Heating_Element/Heating_Element_program.o
+ .debug_line    0x00000b41       0xc9 03- HAL/01-Relay/Relay_program.o
+ .debug_line    0x00000c0a      0x172 03- HAL/05-Push_Buttons/Push_Buttons_program.o
+ .debug_line    0x00000d7c      0x11b 03- HAL/06-Leds/Leds_program.o
+ .debug_line    0x00000e97      0x2a5 03- HAL/04-7_Segment/_7_Segment_program.o
+ .debug_line    0x0000113c       0xf3 03- HAL/07-Temperature_Sensor/Temperature_Sensor_program.o
+ .debug_line    0x0000122f      0x4f9 05- APP/main.o
+
+.debug_frame    0x00000000      0x610
+ *(.debug_frame)
+ .debug_frame   0x00000000       0x44 02- MCAL/01_DIO/DIO_program.o
+ .debug_frame   0x00000044       0x34 02- MCAL/02-GIE/GIE_program.o
+ .debug_frame   0x00000078       0x34 02- MCAL/03-ADC/ADC_program.o
+ .debug_frame   0x000000ac      0x1fc 02- MCAL/04-Timer/Timer_program.o
+ .debug_frame   0x000002a8       0x34 02- MCAL/05-EEPROM/EEPROM_program.o
+ .debug_frame   0x000002dc       0xac 02- MCAL/06-UART/UART_program.o
+ .debug_frame   0x00000388       0x54 03- HAL/02-Cooling_Element/Cooling_Element_Fan_program.o
+ .debug_frame   0x000003dc       0x44 03- HAL/03-Heating_Element/Heating_Element_program.o
+ .debug_frame   0x00000420       0x44 03- HAL/01-Relay/Relay_program.o
+ .debug_frame   0x00000464       0x54 03- HAL/05-Push_Buttons/Push_Buttons_program.o
+ .debug_frame   0x000004b8       0x44 03- HAL/06-Leds/Leds_program.o
+ .debug_frame   0x000004fc       0x6c 03- HAL/04-7_Segment/_7_Segment_program.o
+ .debug_frame   0x00000568       0x34 03- HAL/07-Temperature_Sensor/Temperature_Sensor_program.o
+ .debug_frame   0x0000059c       0x74 05- APP/main.o
+
+.debug_str      0x00000000      0xdfd
+ *(.debug_str)
+ .debug_str     0x00000000      0x196 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.7.374/gcc/dev/atmega32a/avr5/crtatmega32a.o
+ .debug_str     0x00000196      0x234 02- MCAL/01_DIO/DIO_program.o
+                                0x24e (size before relaxing)
+ .debug_str     0x000003ca       0x48 02- MCAL/02-GIE/GIE_program.o
+                                0x18f (size before relaxing)
+ .debug_str     0x00000412       0x53 02- MCAL/03-ADC/ADC_program.o
+                                0x19a (size before relaxing)
+ .debug_str     0x00000465      0x1fd 02- MCAL/04-Timer/Timer_program.o
+                                0x34f (size before relaxing)
+ .debug_str     0x00000662       0x58 02- MCAL/05-EEPROM/EEPROM_program.o
+                                0x1a6 (size before relaxing)
+ .debug_str     0x000006ba       0x95 02- MCAL/06-UART/UART_program.o
+                                0x1f6 (size before relaxing)
+ .debug_str     0x0000074f       0xa3 03- HAL/02-Cooling_Element/Cooling_Element_Fan_program.o
+                                0x214 (size before relaxing)
+ .debug_str     0x000007f2       0xab 03- HAL/03-Heating_Element/Heating_Element_program.o
+                                0x1ec (size before relaxing)
+ .debug_str     0x0000089d       0x24 03- HAL/01-Relay/Relay_program.o
+                                0x1cd (size before relaxing)
+ .debug_str     0x000008c1       0xc1 03- HAL/05-Push_Buttons/Push_Buttons_program.o
+                                0x245 (size before relaxing)
+ .debug_str     0x00000982       0x57 03- HAL/06-Leds/Leds_program.o
+                                0x1c8 (size before relaxing)
+ .debug_str     0x000009d9      0x132 03- HAL/04-7_Segment/_7_Segment_program.o
+                                0x2c5 (size before relaxing)
+ .debug_str     0x00000b0b       0x80 03- HAL/07-Temperature_Sensor/Temperature_Sensor_program.o
+                                0x1fc (size before relaxing)
+ .debug_str     0x00000b8b      0x272 05- APP/main.o
+                                0x6b2 (size before relaxing)
+
+.debug_loc      0x00000000      0xce5
+ *(.debug_loc)
+ .debug_loc     0x00000000      0x4f8 02- MCAL/01_DIO/DIO_program.o
+ .debug_loc     0x000004f8       0x21 02- MCAL/03-ADC/ADC_program.o
+ .debug_loc     0x00000519      0x2df 02- MCAL/04-Timer/Timer_program.o
+ .debug_loc     0x000007f8       0x58 02- MCAL/05-EEPROM/EEPROM_program.o
+ .debug_loc     0x00000850       0xcb 02- MCAL/06-UART/UART_program.o
+ .debug_loc     0x0000091b       0xa6 03- HAL/06-Leds/Leds_program.o
+ .debug_loc     0x000009c1      0x261 03- HAL/04-7_Segment/_7_Segment_program.o
+ .debug_loc     0x00000c22       0x3b 03- HAL/07-Temperature_Sensor/Temperature_Sensor_program.o
+ .debug_loc     0x00000c5d       0x88 05- APP/main.o
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x00000000      0x258
+ *(.debug_ranges)
+ .debug_ranges  0x00000000       0x20 02- MCAL/01_DIO/DIO_program.o
+ .debug_ranges  0x00000020       0x18 02- MCAL/02-GIE/GIE_program.o
+ .debug_ranges  0x00000038       0x18 02- MCAL/03-ADC/ADC_program.o
+ .debug_ranges  0x00000050       0x90 02- MCAL/04-Timer/Timer_program.o
+ .debug_ranges  0x000000e0       0x18 02- MCAL/05-EEPROM/EEPROM_program.o
+ .debug_ranges  0x000000f8       0x30 02- MCAL/06-UART/UART_program.o
+ .debug_ranges  0x00000128       0x28 03- HAL/02-Cooling_Element/Cooling_Element_Fan_program.o
+ .debug_ranges  0x00000150       0x20 03- HAL/03-Heating_Element/Heating_Element_program.o
+ .debug_ranges  0x00000170       0x20 03- HAL/01-Relay/Relay_program.o
+ .debug_ranges  0x00000190       0x28 03- HAL/05-Push_Buttons/Push_Buttons_program.o
+ .debug_ranges  0x000001b8       0x20 03- HAL/06-Leds/Leds_program.o
+ .debug_ranges  0x000001d8       0x30 03- HAL/04-7_Segment/_7_Segment_program.o
+ .debug_ranges  0x00000208       0x18 03- HAL/07-Temperature_Sensor/Temperature_Sensor_program.o
+ .debug_ranges  0x00000220       0x38 05- APP/main.o
+
+.debug_macro
+ *(.debug_macro)
+OUTPUT(Amit project- Electric Water Heater.elf elf32-avr)
+LOAD linker stubs
