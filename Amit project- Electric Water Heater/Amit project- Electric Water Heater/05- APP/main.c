@@ -56,7 +56,6 @@ int main (void)
 	MCAL_TIMER0_vidCallBack (&Interupt_OVF_Timer0_100milisec_Get_Temperature);
 	MCAL_TIMER1_vidCallBack (&Interupt_OVF_Timer1_5sec_Set_Temoperature_Mode);
 	MCAL_TIMER2_vidCallBack (&Interupt_OVF_Timer2_1sec_Toggle);
-// 	MCAL_UART_Receive_vidCallBack(&Interupt_UART_Received_Order);
 	
 	Std_ReturnState sleep_mode = true ;
 
