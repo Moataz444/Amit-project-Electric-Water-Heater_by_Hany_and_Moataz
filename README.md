@@ -1,5 +1,5 @@
 # Amit-project-Electric-Water-Heater_by_Hany_and_Moataz
-Graduation project for AMIT Learning Diploma
+Graduation project for AMIT Embedded Diploma
 
 Amit project: Electric Water Heater by Hany and Moataz
 
