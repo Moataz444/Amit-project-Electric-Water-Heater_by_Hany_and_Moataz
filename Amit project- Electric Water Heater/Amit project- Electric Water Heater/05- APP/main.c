@@ -86,7 +86,12 @@ int main (void)
 			HAL_udtDisableCooler();
 			HAL_udtLedOff(Led1);
 			
-			if (HAL_udtCheck_ChangeStateButton())
+			MCAL_Timer0_vidDisable();
+			MCAL_Timer1_vidDisable();
+			MCAL_Timer2_vidDisable();
+			
+			// check on/off push button
+			if (HAL_udtCheck_ChangeStateButton()) // check to switch to off mode
 			{
 				sleep_mode = !sleep_mode;
 				set_temperature_mode = false;
@@ -144,12 +149,9 @@ int main (void)
 			}else {}
 			
 			// check on/off push button
-			if (HAL_udtCheck_ChangeStateButton())
+			if (HAL_udtCheck_ChangeStateButton()) // check to switch to off mode
 			{
 				sleep_mode = !sleep_mode;
-				MCAL_Timer0_vidDisable();
-				MCAL_Timer1_vidDisable();
-				MCAL_Timer2_vidDisable();
 			}else{}
 			
 			// check temperature
@@ -171,7 +173,7 @@ int main (void)
 				
 			if ( u16Teperature_Average > Wanted_Temperature+5 ) // Enable Cooler
 			{
-				MCAL_Timer2_vidDisable();
+				MCAL_Timer2_vidDisable(); // don't toggle
 				HAL_udtLedOn(Led1);
 				HAL_udtEnableCooler_Clockwise();
 				HAL_udtDisableHeater();
@@ -249,8 +251,8 @@ void Interupt_OVF_Timer2_1sec_Toggle(void) // 8-bit timer, prescaler 1024, wante
 	if (Timer2_OVF_Counter >= 61036)
 	{
 		Toggle_Every_1_sec = !Toggle_Every_1_sec;
-		Timer2_OVF_Counter = 0;
 		MCAL_Timer2_vidDisable();
+		Timer2_OVF_Counter = 0;
 	}
 }
 
