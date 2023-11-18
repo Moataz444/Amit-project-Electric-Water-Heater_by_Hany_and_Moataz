@@ -10,13 +10,8 @@
 
 // Timer0 counter 
 void MCAL_Timer0_vidInit (void) ;
-
 void MCAL_Timer0_vidEnable(uint16 u16Timer0_Counter);
 void MCAL_Timer0_vidDisable(void);
-
-void MCAL_Timer0_vidDelay_1_seca (void); 
-void MCAL_Timer0_vidDelay_5_seca (void);
-
 void MCAL_TIMER0_vidCallBack (void (*pvCallBack) (void) ) ;
 
 // Timer1 counter 
