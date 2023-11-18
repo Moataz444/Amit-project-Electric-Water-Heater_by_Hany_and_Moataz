@@ -105,28 +105,6 @@ void MCAL_Timer0_vidDisable(void)
 	CLR_BIT(TCCR0,2);
 }
 
-void MCAL_Timer0_vidDelay_1_seca (void)
-{
-	uint8 i ;
-	TCNT0 = 112 ;
-	for (i=0 ; i < 977; i++)
-	{
-		while ( ( GET_BIT(TIFR, 0)  ) == 0); // when == 1  == overflow flag
-		SET_BIT(TIFR, 0); // cleared by writing  1
-	}
-}
-
-void MCAL_Timer0_vidDelay_5_seca (void)
-{
-	uint8 i ;
-	TCNT0 = 152 ;
-	for (i=0 ; i < 2442; i++)
-	{
-		while ( ( GET_BIT(TIFR, 0)  ) == 0); // when == 1  == overflow flag without interupt
-		SET_BIT(TIFR, 0); // cleared by writing  1
-	}
-}
-
 void (*TIMER0_pvCallBack) (void);
 void MCAL_TIMER0_vidCallBack (void (*pvCallBack) (void) ) 
 {
@@ -154,7 +132,7 @@ void MCAL_Timer1_vidInit(void)
 	CLR_BIT(TCCR1B, 3);
 	CLR_BIT(TCCR1B, 4);
 	
-	/* !Comment:  Bit 2 – TOIE1: Timer1/Counter1, Overflow Interrupt Enable */
+	/* !Comment:  Bit 2 â€“ TOIE1: Timer1/Counter1, Overflow Interrupt Enable */
 	SET_BIT (TIMSK, 2);
 }
 
@@ -233,7 +211,7 @@ void MCAL_Timer2_vidInit(void)
 	CLR_BIT(TCCR2, 4);
 	CLR_BIT(TCCR2, 5);
 	
-	/* !Comment:  Bit 6 – TOIE2: Timer/Counter2 Overflow Interrupt Enable */
+	/* !Comment:  Bit 6 â€“ TOIE2: Timer/Counter2 Overflow Interrupt Enable */
 	SET_BIT (TIMSK, 6);
 }
 
