@@ -4,6 +4,7 @@ Graduation project for AMIT Embedded Diploma
 Amit project: Electric Water Heater by Hany and Moataz
 
 An Electric Water Heater that senses current temperature, and start heater if current temperature lower than set temperature by 5 degrees, and start cooler if current temperature higher than set temperature by 5 degrees.
+
     Used Components:
                     HAL:
                         1- Relay : for heater
@@ -13,6 +14,7 @@ An Electric Water Heater that senses current temperature, and start heater if cu
                         5- Push Buttons
                         6- Leds
                         7- Temperature Sensor (NTC Thermistor)
+                        
                   MCAL:
                         1- DIO
                         2- GIE (Global Interrupt)
